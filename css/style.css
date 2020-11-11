@@ -1,0 +1,153 @@
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 92px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+  }
+  h1.elegantshadow {
+    animation-duration: 3s;
+    padding: 40px 25px;
+    font-size: 25px;
+    color: #131313;
+    letter-spacing: 0.15em;
+    text-shadow: 0.5px -0.5px 0 #767676, -0.5px 1px 0.5px #737272, -1px 2px 0.5px #767474, -1.5px 3px 0.5px #787777, -2px 4px 0.5px #7b7a7a, -2.5px 5px 0.5px #7f7d7d, -3px 6px 0.5px #828181, -3.5px 7px 0.5px #868585, -4px 8px 0.5px #8b8a89, -4.5px 9px 0.5px #8f8e8d, -5px 10px 0.5px #949392, -5.5px 11px 0.5px #999897, -6px 12px 0.5px #9e9c9c, -6.5px 13px 0.5px #a3a1a1, 
+    -7px 14px 0.5px #a8a6a6, -7.5px 15px 0.5px #adabab, -8px 16px 0.5px #b2b1b0, -8.5px 17px 0.5px #b7b6b5, -9px 18px 0.5px #bcbbba, -9.5px 19px 0.5px #c1bfbf, -10px 20px 0.5px #c6c4c4, -10.5px 21px 0.5px #cbc9c8, -11px 22px 0.5px #cfcdcd, -11.5px 23px 0.5px #d4d2d1, -12px 24px 0.5px #d8d6d5, -12.5px 25px 0.5px #dbdad9, -13px 26px 0.5px #dfdddc, -13.5px 27px 0.5px #e2e0df, -14px 28px 0.5px #e4e3e2;
+  }
+  h1.retroshadow {
+    font-size: 25px;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 0px #d5d5d5, 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.shadow {
+  flex-wrap: nowrap;
+  background: #979997;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5); /* Параметры тени */
+  padding: 5px;
+}
+.shadow:hover {
+  background: #5a5959;
+}
+
+
+body a{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+  color: #111;
+  letter-spacing: 0.1em; 
+}
+
+.container{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+  color: #111;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  width: 80px;
+  height: 20;
+}
+
+
+.one, .four, .seven, .ten {
+  background: rgba(135, 86, 120, .4);
+}
+.one:hover {
+  -o-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.two, .five, .eight, .eleven {
+  background: rgba(0, 228, 246, .4);
+}
+.two:hover {
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);  
+  transform: translateY(-20px);
+}
+.three, .six, .nine {
+  background: rgba(255, 153, 0, .4);
+}
+.three:hover {
+  -o-transform: translate(-20px, 20px);
+  -ms-transform: translate(-20px, 20px);
+  -moz-transform: translate(-20px, 20px);
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+}
+.four:hover {
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.five:hover {
+  -o-transform: scaleY(1.2);
+  -ms-transform: scaleY(1.2);
+  -moz-transform: scaleY(1.2);
+  -webkit-transform: scaleY(1.2);
+  transform: scaleY(1.2);
+}
+.six:hover {
+  -o-transform: scale(1.2, 0.5);
+  -ms-transform: scale(1.2, 0.5);
+  -moz-transform: scale(1.2, 0.5);
+  -webkit-transform: scale(1.2, 0.5);
+  transform: scale(1.2, 0.5);
+}
+.seven:hover {
+  -o-transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  -moz-transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
+}
+.eight:hover {
+  -o-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+.nine:hover {
+  -o-transform: skewY(-20deg);
+  -ms-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+  -webkit-transform: skewY(-20deg);
+  transform: skewY(-20deg);
+}
+.ten:hover {
+  -o-transform: skew(-20deg, 20deg);
+  -ms-transform: skew(-20deg, 20deg);
+  -moz-transform: skew(-20deg, 20deg);
+  -webkit-transform: skew(-20deg, 20deg);
+  transform: skew(-20deg, 20deg);
+}
+.eleven:hover {
+  -o-transform: matrix(1.2,0,0.5,1.2,50,0);
+  -ms-transform: matrix(1.2,0,0.5,1.2,50,0);
+  -moz-transform: matrix(1.2,0,0.5,1.2,50,0);
+  -webkit-transform: matrix(1.2,0,0.5,1.2,50,0);
+  transform: matrix(1.2,0,0.5,1.2,50,0);
+}
